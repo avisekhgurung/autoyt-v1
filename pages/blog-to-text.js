@@ -24,22 +24,22 @@ import Faq from '@/components/Faq'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home({showcase, howItWorks, vs, infoText, faq, newTestimonials}) {
+export default function BlogTotext({showcase, howItWorks, vs, infoText, faq, newTestimonials}) {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   return (
     <Fragment>
-      {/* <Header />
+      <Header />
       <Showcase showcase={showcase}/>
       <Badges />
       <HowItWorks howItWorks={howItWorks} />
-      <Vs vs={vs} /> */}
+      <Vs vs={vs} />
       {/* <PricingSection pricing={pricing} /> */}
       {/* <Testimonial testimonials={testimonials} /> */}
       {/* <Testi testimonials={testimonials} /> */}
-      {/* <NewTesti newTestimonials={newTestimonials}/>
+      <NewTesti newTestimonials={newTestimonials}/>
       <InfoText infoText={infoText} />
-      <Faq faq={faq}/> */}
+      <Faq faq={faq}/>
       {/* <Records />
       <Footer social={social}/>
       <Social social={social}/> */}
